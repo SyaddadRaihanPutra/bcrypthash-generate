@@ -1,0 +1,27 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Poppins,sans-serif;background-color:#1d2e3d;display:grid;place-items:center;height:100vh}
+.container{background-color:#fff;padding:20px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.1);text-align:center;width:95%;width:400px}
+.title-card{display:flex;justify-content:space-between;align-items:center}
+.title-card button{width:40px}
+h2{margin-bottom:20px;text-align:center;color:#fff}
+label{display:block;text-align:left;margin:10px 0}
+input.plain{display:block;padding:10px;border:none;width:100%;border-bottom:1px solid #000;outline:0;text-align:left}
+button{padding:10px;margin:10px 0;width:100%;border:none;border-radius:5px;outline:0;background-color:#0d6e6e;color:#fff;cursor:pointer}
+button.info-button{background-color:transparent;color:#1d2e3d;font-size:15px}
+.modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,.5)}
+.modal-title{font-weight:500}
+.modal-header{display:flex;justify-content:space-between;align-items:center;height:40px;margin-bottom:10px}
+.modal-header button{background-color:transparent;color:#000;font-size:20px;border:none;cursor:pointer;width:40px}
+.modal-content{max-width:450px;background-color:#fefefe;margin:15% auto;padding:20px;border:1px solid #888;width:80%;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.1)}
+.modal-body p{font-size:12px;font-weight:300;text-align:justify}
+button.close{color:#aaa;float:right;font-size:28px}
+.show{display:block}
+.copy-element{display:flex;justify-content:space-between;align-items:center;margin:10px 0}
+.copy-element input{margin-right:10px;padding:10px;width:100%;border:1px solid #ddd;border-radius:5px;outline:0}
+.copy-element button{width:40px;margin:0}
+.footer{margin-top:50px;text-align:center;color:#fff;font-size:small}
+.footer a{color:#afffff;text-decoration:none}
+.footer a:hover{text-decoration:underline}
+@media screen and (max-width:768px){
+.container{width:100%}
+}
